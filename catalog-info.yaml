@@ -1,0 +1,16 @@
+# Сгенерировано scripts/build-backstage-catalog.py --write-catalog-info из фактов; руками не править.
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "voicy"
+  description: "Локальный сервер для работы с голосом: синтез речи с клонированием голоса,"
+  annotations:
+    github.com/project-slug: "larushkinev-cell/voicy"
+    backstage.io/techdocs-ref: "url:https://github.com/larushkinev-cell/voicy/tree/master"
+spec:
+  type: "service"
+  lifecycle: "production"
+  owner: "group:default/asguard"
+  system: "asguard"
